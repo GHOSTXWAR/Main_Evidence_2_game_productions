@@ -1,5 +1,4 @@
 using Unity.Netcode;
-using Unity.Netcode.Samples;
 using UnityEngine;
 
 [RequireComponent(typeof(NetworkObject))]
