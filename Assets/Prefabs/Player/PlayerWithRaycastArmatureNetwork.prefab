@@ -729,7 +729,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2255991852033553856}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 741e2afa2ae7e5d4ca6caba66ac9a6f5, type: 3}
   m_Controller: {fileID: 9100000, guid: d0272bffc105daf468bd25eeab2411f1, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -860,8 +860,6 @@ MonoBehaviour:
   leftHand: {fileID: 6867047020064102711}
   rightHand: {fileID: 7564247617468009595}
   minPunchDistance: 0.25
-  jumpHeight: 1.5
-  gravity: -9.81
 --- !u!1 &2439462815760529262
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(NetworkTransform))]
 [RequireComponent(typeof(NetworkObject))]
-[RequireComponent(typeof(CharacterController))] 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerWithRaycastControl : NetworkBehaviour
 {
     [SerializeField] private float walkSpeed = 3.5f;
@@ -111,10 +111,10 @@ public class PlayerWithRaycastControl : NetworkBehaviour
     {
         if (characterController == null) return; // safety
 
-       
+
         isGrounded = characterController.isGrounded;
         if (isGrounded && verticalVelocity < 0)
-            verticalVelocity = -2f; 
+            verticalVelocity = -2f;
 
         Vector3 move = Vector3.zero;
 
@@ -166,7 +166,7 @@ public class PlayerWithRaycastControl : NetworkBehaviour
         Run,
         ReverseWalk,
         Punch,
-        Jump   
+        Jump
     }
 
     private void ClientInput()
