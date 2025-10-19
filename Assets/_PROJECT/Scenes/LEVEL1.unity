@@ -254,6 +254,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 114
       objectReference: {fileID: 0}
+    - target: {fileID: 3128520841843824576, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_text
+      value: 'Rember to add your own local IP in the game editor to join from diffrent
+        pc''s on the same network
+
+        You can do this by going to the network
+        manager under unity transport -Address
+
+        and then making a new game
+        build
+
+
+        To start the game you will need to start one player as the
+        Host and the rest as Clients'
+      objectReference: {fileID: 0}
     - target: {fileID: 3379366627658060236, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
       propertyPath: debugAreaText
       value: 
@@ -362,6 +377,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6044099293429242468, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8447156949268424774, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2853327
@@ -382,8 +401,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 241
       objectReference: {fileID: 0}
+    - target: {fileID: 8714617892289361477, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7486409
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714617892289361477, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5801967
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714617892289361477, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7486409
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714617892289361477, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -123.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714617892289361477, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 191
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5581351397590956274, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34bf7bd02a5524749b99640c69a49b34, type: 3}
@@ -1359,7 +1399,7 @@ MonoBehaviour:
   m_MaxConnectAttempts: 60
   m_DisconnectTimeoutMS: 30000
   ConnectionData:
-    Address: 127.0.0.1
+    Address: 192.168.1.54
     Port: 7777
     ServerListenAddress: 0.0.0.0
   DebugSimulator:
